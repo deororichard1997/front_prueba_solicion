@@ -1,10 +1,11 @@
-import api from '../api';  // Importa la configuración base de Axios
+import api from './api';  // Importa la configuración base de Axios
 
 export const crearUsuario = async (usuarioData) => {
     try {
         const response = await api.post('/api/usuarios/store', usuarioData, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`,
+                // 'Authorization': `Bearer ${localStorage.getItem('token')}`,
             },
         });
         return response.data;

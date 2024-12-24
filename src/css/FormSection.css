@@ -3,13 +3,26 @@
     flex-direction: column;
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd;
     border-radius: 8px;
-    margin: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
-.form-section input,
+.form-section input{
+    color: #023D6A;
+}
+
+form-control::placeholder {
+    color: #023D6A;
+}
+
+.form-label{
+    color: #023D6A;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
 .form-section select {
     margin-bottom: 15px;
     padding: 10px;

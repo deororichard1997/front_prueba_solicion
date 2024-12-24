@@ -1,18 +1,98 @@
 .academic-info {
     padding: 20px;
-    background-color: #fefefe;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #C6CBD2;
+    /* border: 1px solid #ddd; */
 }
 
 .academic-info textarea {
-    width: 100%;
+    /* width: 100%; */
     height: 100px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     font-size: 1rem;
     resize: none;
 }
+
+.btn-save{
+    background-color: #0DC6DE;
+}
+
+#btn-delete-academia {
+    border: 1px solid #761d74;
+    color: #761d74;
+    font-size: 14px;
+    margin-left: 15px;
+    align-items: center;
+    gap: 34px;
+    border-radius: 20px;
+    transition: color 0.3s ease;
+}
+
+#btn-delete-individual-academia {
+    border: 1px solid #761d74;
+    color: #761d74;
+    font-size: 14px;
+    background-color: transparent;
+    /* display: flex; */
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    margin-left: 15px;
+    border: 1px solid #761d74;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+    color: #761d74;
+}
+
+.form-control::placeholder {
+    color: #023D6A;
+    opacity: 1;
+}
+
+.form-label::placeholder {
+    color: #023D6A;
+    opacity: 1;
+}
+
+#btn-save {
+    background-color: #0DC6DE;
+    color: #023D6A;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-left: 15px;
+    align-items: center;
+    /* gap: 5px; */
+    /* cursor: pointer; */
+    transition: background-color 0.3s ease;
+}
+
+.btn-save:hover {
+    background-color: #0bb8c5;
+}
+
+button i {
+    font-size: 16px;
+}
+
+#btn-añadir {
+    background-color: transparent;
+    color: #023D6A;
+    font-size: 14px;
+    /* display: flex; */
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    margin-left: 15px;
+    border: 1px solid #023D6A;
+    border-radius: 20px;
+    /* cursor: pointer; */
+    /* transition: color 0.3s ease, */
+}
+  
+

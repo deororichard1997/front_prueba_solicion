@@ -1,17 +1,25 @@
 .header {
-    width: auto;
+    width: 100%;
     height: 120px;
     padding: 36px 196px;
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    border-radius: 0 0 20px 20px;
     background: linear-gradient(90deg, #761D74 0%, #0DC6DE 100%);
     opacity: 1;
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 100%; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* color: white; */
+    /* padding: 20px; */
+    z-index: 1;
 }
 
 .header-logo {
+    max-height: 100%;
     width: auto;
-    height: 100%;
     object-fit: contain;
 }

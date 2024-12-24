@@ -1,6 +1,9 @@
-import api from '../api';  // Importa tu configuración base de Axios
+import api from './api';  // Importa la configuración base de Axios
 
 export const login = async (email, password) => {
+    console.log(email);
+    console.log(password);
+    
     try {
         const response = await api.post('/api/login', {
             email,

@@ -1,5 +1,17 @@
-.App {
+/* .App {
   text-align: center;
+  width: 100%;
+} */
+
+.App {
+  /* text-align: center;s */
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+  min-height: 100vh; /* Opcional: Ajustar al alto de la pantalla si se desea */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Ajusta el contenido en columna */
+  align-items: center; /* Centra horizontalmente */
 }
 
 .App-logo {
@@ -11,6 +23,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.title-genera-areas{
+  color: #023D6A;
+  font-weight: bold;
+  /* font-size: 18px; */
 }
 
 .App-header {
@@ -44,7 +62,7 @@ body {
 }
 
 .app {
-  max-width: auto;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0px;
 }
@@ -56,4 +74,11 @@ h1, h2 {
 button {
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+#btn-guardar-global{
+  border-radius: 35px;
+  background: linear-gradient(90deg, #761D74 0%, #0DC6DE 100%);
+  opacity: 1;
+  color: #F8D2EA;
 }
