@@ -1,0 +1,22 @@
+.file-upload {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.file-upload:hover {
+    background-color: #e9ecef;
+    border-color: #007bff;
+}
+
+.file-upload span {
+    margin-left: 10px;
+    color: #555;
+    font-size: 0.9rem;
+}
