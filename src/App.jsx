@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 
 import React, { useState, useEffect } from "react";
-import { login } from "../src/services/authService";
+import { login } from "./services/AuthService";
 import Header from './components/Header';
 import Slider from './components/Slider';
 import UserProfile from './components/UserProfile';
@@ -10,7 +10,7 @@ import FormSection from './components/FormSection';
 import FormSection2 from './components/FormSection2';
 import AcademicInfo from './components/AcademicInformation';
 import WorkExperience from './components/WorkExperience';
-import api from './services/api';
+import api from './services/Api';
 import { FaUserAlt, FaMoneyBillWave, FaIndustry, FaTruck, FaHeart, FaBrain, FaCog, FaGlobe, FaBook, FaRegQuestionCircle, FaLaptop, FaExchangeAlt, FaRegMeh } from 'react-icons/fa';
 import './App.css';
 
